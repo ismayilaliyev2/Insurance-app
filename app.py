@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load your new model
-regressor = joblib.load("new_model.pkl")  # Your retrained model
+regressor = joblib.load("new_model2.pkl")  # Your retrained model
 
 # Page config
 st.set_page_config(page_title="Insurance Cost Estimator", layout="centered")
